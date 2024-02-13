@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --heading: 202, 192, 179;
+  --foreground-rgb: 255, 89, 90;
+  --background-start-rgb: 0, 18, 51, 1;
+  --background-end-rgb: 0, 18, 51, 1;
+  --font-inter: "Inter";
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html,
+body,
+.font-sans {
+  font-family: var(--font-inter);
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.grainyBg {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 18, 51, 1);
+}
+
+.grainyBg:after {
+  animation: grain 1s steps(10) infinite;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paper-pattern.png);
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity: 0.3;
+  position: fixed;
+  top: -110%;
+  width: 300%;
+}
+
+@keyframes grain {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -10%);
+  }
+  20% {
+    transform: translate(-15%, 5%);
+  }
+  30% {
+    transform: translate(7%, -25%);
+  }
+  40% {
+    transform: translate(-5%, 25%);
+  }
+  50% {
+    transform: translate(-15%, 10%);
+  }
+  60% {
+    transform: translate(15%, 0%);
+  }
+  70% {
+    transform: translate(0%, 15%);
+  }
+  80% {
+    transform: translate(3%, 35%);
+  }
+  90% {
+    transform: translate(-10%, 10%);
+  }
+}
+
+.cursorPOinter {
+  background: radial-gradient(
+    600px at 672px 1090px,
+    rgba(29, 78, 216, 0.15),
+    transparent 80%
+  );
+}
+
+.barDown {
+  position: relative;
+  text-decoration: none;
+}
+
+.barDown::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 0%;
+  width: 100%;
+  height: 2px;
+  background-color: #ff595a;
+  border-radius: 100vh;
+  opacity: 0.8;
+  transform: scaleX(0);
+  transform-origin: 100% 50%;
+  transition: transform 0.3s ease;
+}
+
+.barDown:hover::before {
+  background-color: #ff595a;
+  transform: scaleX(1);
+  transform-origin: 0% 50%;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: rgba(150, 18, 51, 1);
+}
+
+::selection {
+  color: black;
+  background: rgba(150, 18, 51, 1);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .CustomHeading {
+    @apply text-[#FF595A];
+  }
+  .CustomPara {
+    @apply text-[#CAC0B3];
+  }
+  .CustomPara1 {
+    @apply text-[#CAC0B3];
+  }
+  .CustomCarpanterCursor {
+    @apply !cursor-[url('../../public/CarpanterImg.png'),_auto];
+  }
+  .CustomGymCursor {
+    @apply !cursor-[url('../../public/GymBooyImg.png'),_auto];
+  }
+}
