@@ -20,7 +20,17 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body className="relative">
+        <div className="fixed">
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+          <div id="stars3"></div>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

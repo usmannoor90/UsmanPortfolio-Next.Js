@@ -6,7 +6,7 @@ const TARGET_TEXT = "Enter on the website";
 const CYCLES_PER_LETTER = 2;
 const SHUFFLE_TIME = 50;
 
-const CHARS = "!@#$%^&*():{};|,.<>/?'";
+const CHARS = "!*@#$%&():{}|<>/?";
 
 const EncryptButton = () => {
   const intervalRef = useRef(null);
@@ -56,7 +56,7 @@ const EncryptButton = () => {
       exit={{ scale: 10, width: "100vh", height: "100vh" }}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
-      className="group relative sm:p-5 p-3 w-full overflow-hidden rounded-lg border-[1px] border-slate-500 bg-[rgba(0,18,51,1)] font-medium uppercase text-slate-300 transition-colors hover:text-[#CAC0B3]  "
+      className="group relative sm:p-5 p-3 w-full overflow-hidden rounded-lg border-[1px] border-slate-500 bg-[rgba(0,18,51,0)] font-medium uppercase text-slate-300 transition-colors hover:text-[white]  "
     >
       <div className="relative z-10 flex items-center justify-center gap-2">
         <FiLock />
@@ -75,7 +75,7 @@ const EncryptButton = () => {
           duration: 1,
           ease: "linear",
         }}
-        className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-indigo-400/0 from-40% via-[#cac0b3e1] to-indigo-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
+        className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-indigo-400/0 from-40% via-[white] to-indigo-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
       />
     </motion.button>
   );

@@ -23,14 +23,7 @@ function Sections() {
           contact me
         </span>
       </Link>
-      <div className="fixed">
-        <div id="stars"></div>
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div id="stars3"></div>
-      </div>
+
       <div className="mx-auto min-h-screen max-w-screen-xl  py-12  md:py-20 lg:py-0">
         <div className="relative z-40 lg:flex lg:justify-between lg:gap-4">
           <header className=" lg:sticky lg:top-0 lg:flex max-h-[700px] lg:w-1/2 lg:flex-col lg:justify-between lg:py-20  lg:px-20 md:px-12  px-6  ">

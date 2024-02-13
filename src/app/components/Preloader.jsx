@@ -18,7 +18,6 @@ function Preloader({ OnClose, open }) {
     >
       <div className=" w-screen flex flex-col items-center  px-4  absolute z-40 left-[50%] top-[50%] text-4xl text-white translate-x-[-50%] translate-y-[-50%]   ">
         <motion.div
-          onClick={OnClose}
           initial={{ opacity: 0 }}
           viewport={{ once: true }} //here
           transition={{ duration: 0.5 }}
@@ -31,7 +30,7 @@ function Preloader({ OnClose, open }) {
             <h2 className="sm:mb-3  mb-1 ">M Usman Noor</h2>
             <h2> Web Developer</h2>
           </div>
-          <div className="  flex mx-auto justify-center ">
+          <div className="  flex mx-auto justify-center " onClick={OnClose}>
             <EncryptButton />
           </div>
         </motion.div>
