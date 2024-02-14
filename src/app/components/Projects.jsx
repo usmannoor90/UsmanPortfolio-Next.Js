@@ -16,10 +16,7 @@ function Projects() {
   return (
     <>
       <div className="lg:mx-0 sm:mx-4 group/list mt-10   [&>div]:mb-4 ">
-        <div
-          onClick={() => window.open("https://traderaai.beweb3.com/", "_blank")}
-          className=" cursor-pointer  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_8px_32px_0_rgba(0,0,0,0.3)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  "
-        >
+        <div className="   rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_0px_10px_0_rgba(0,0,0,0.1)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px] ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={traderaai}
@@ -27,7 +24,12 @@ function Projects() {
               className="w-[100px] h-[80px]   rounded-md border-[1px] border-solid border-[#cac0b33d] group-hover:border-[#cac0b3]  transition-[all_0.1s] ease-linear "
             />
             <div>
-              <div className="flex gap-1 items-center mb-2">
+              <div
+                className="flex gap-1 items-center mb-2  cursor-pointer "
+                onClick={() =>
+                  window.open("https://traderaai.beweb3.com/", "_blank")
+                }
+              >
                 <h2 className="lg:text-white font-bold text-[#FF595A] group-hover:text-[#FF595A] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   TraderGPT Clone
                 </h2>
@@ -71,10 +73,7 @@ function Projects() {
             </span>
           </div>
         </div>
-        <div
-          onClick={() => window.open("https:newhorizonhm.com", "_blank")}
-          className=" cursor-pointer  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_8px_32px_0_rgba(0,0,0,0.3)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  "
-        >
+        <div className="   rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_0px_10px_0_rgba(0,0,0,0.1)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={NHImage}
@@ -82,7 +81,10 @@ function Projects() {
               className="w-[100px] h-[80px]  rounded-md border-[1px] border-solid border-[#cac0b33d] group-hover:border-[#cac0b3]   transition-[all_0.1s] ease-linear "
             />
             <div>
-              <div className="flex gap-1 items-center mb-2">
+              <div
+                className="flex gap-1 items-center mb-2  cursor-pointer  "
+                onClick={() => window.open("https:newhorizonhm.com", "_blank")}
+              >
                 <h2 className="lg:text-white font-bold text-[#FF595A] group-hover:text-[#FF595A] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   NewHorizon
                 </h2>
@@ -125,12 +127,7 @@ function Projects() {
           </div>
         </div>
 
-        <div
-          onClick={() =>
-            window.open("https://velocityv1.beweb3.com/", "_blank")
-          }
-          className=" cursor-pointer  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_8px_32px_0_rgba(0,0,0,0.3)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  "
-        >
+        <div className="   rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_0px_10px_0_rgba(0,0,0,0.1)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={sponsa2}
@@ -138,7 +135,12 @@ function Projects() {
               className="w-[100px] h-[80px]   rounded-md border-[1px] border-solid border-[#cac0b33d] group-hover:border-[#cac0b3]   transition-[all_0.1s] ease-linear "
             />
             <div>
-              <div className="flex gap-1 items-center mb-2">
+              <div
+                className="flex gap-1 items-center mb-2  cursor-pointer "
+                onClick={() =>
+                  window.open("https://velocityv1.beweb3.com/", "_blank")
+                }
+              >
                 <h2 className="lg:text-white font-bold text-[#FF595A] group-hover:text-[#FF595A] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   Ko-Fi Clone
                 </h2>
@@ -179,10 +181,7 @@ function Projects() {
             </span>
           </div>
         </div>
-        <div
-          onClick={() => window.open("https://velocity.beweb3.com/", "_blank")}
-          className=" cursor-pointer  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_8px_32px_0_rgba(0,0,0,0.3)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  "
-        >
+        <div className="   rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_0px_10px_0_rgba(0,0,0,0.1)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={sponsa}
@@ -190,7 +189,12 @@ function Projects() {
               className="w-[100px] h-[80px]   rounded-md border-[1px] border-solid border-[#cac0b33d] group-hover:border-[#cac0b3]   transition-[all_0.1s] ease-linear "
             />
             <div>
-              <div className="flex gap-1 items-center mb-2">
+              <div
+                className="flex gap-1 items-center mb-2   cursor-pointer  "
+                onClick={() =>
+                  window.open("https://velocity.beweb3.com/", "_blank")
+                }
+              >
                 <h2 className="lg:text-white font-bold text-[#FF595A] group-hover:text-[#FF595A] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   Sponsa
                 </h2>
@@ -222,10 +226,7 @@ function Projects() {
             </span>
           </div>
         </div>
-        <div
-          onClick={() => window.open("https://musmannoor.vercel.app", "_blank")}
-          className=" cursor-pointer  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_8px_32px_0_rgba(0,0,0,0.3)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  "
-        >
+        <div className="   rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100    w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:backdrop-saturate-150 hover:[box-shadow:0_0px_10px_0_rgba(0,0,0,0.1)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0.1)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={Portfolio}
@@ -233,7 +234,12 @@ function Projects() {
               className="w-[100px] h-[80px]   rounded-md border-[1px] border-solid border-[#cac0b33d] group-hover:border-[#cac0b3]   transition-[all_0.1s] ease-linear "
             />
             <div>
-              <div className="flex gap-1 items-center mb-2">
+              <div
+                className="flex gap-1 items-center mb-2 cursor-pointer  "
+                onClick={() =>
+                  window.open("https://musmannoor.vercel.app", "_blank")
+                }
+              >
                 <h2 className="lg:text-white font-bold text-[#FF595A] group-hover:text-[#FF595A] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   M Usman Portfolio v1
                 </h2>

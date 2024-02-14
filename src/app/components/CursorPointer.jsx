@@ -40,7 +40,7 @@ function CursorPointer() {
         height: `${flareSize}px`,
 
         background:
-          "radial-gradient(600px circle at 500px 500px,rgba(29, 78, 216, 0.3),transparent 80%)",
+          "radial-gradient(600px circle at 500px 500px,rgba(29, 78, 216, 0.2),transparent 70%)",
       }}
     ></div>
   );

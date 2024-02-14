@@ -42,7 +42,10 @@ function Sections() {
                 M Usman Noor
               </ScrollLinks>
               <h2 className="mt-3 text-lg font-bold tracking-tight CustomPara sm:text-xl">
-                Full-Stack Engineer at CointBitSolutions
+                <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+                  Full-Stack Engineer
+                </button>{" "}
+                at CointBitSolutions
               </h2>
               <p className="mt-4 font-light leading-normal CustomPara">
                 I build pixel-perfect, engaging, and accessible digital
