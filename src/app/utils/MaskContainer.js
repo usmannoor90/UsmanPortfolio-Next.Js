@@ -34,7 +34,7 @@ const MaskContainer = ({
       ref={containerRef}
       className={`h-screen relative w-screen border-none  ${className}`}
       animate={{
-        backgroundColor: isHovered ? "transparent" : "rgba(0, 18, 51, 1)",
+        backgroundColor: isHovered ? "transparent" : "rgba(0, 0, 0, 1)",
       }}
     >
       <motion.div
@@ -60,10 +60,13 @@ const MaskContainer = ({
           {children}
         </div>
       </motion.div>
-
-      <div className="w-full h-full flex items-center justify-center text-white">
-        {revealText}
-      </div>
+      {isHovered ? (
+        ""
+      ) : (
+        <div className="w-full h-full flex items-center justify-center text-white">
+          {revealText}
+        </div>
+      )}
     </motion.div>
   );
 };

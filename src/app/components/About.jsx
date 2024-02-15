@@ -11,32 +11,32 @@ function About() {
       </h2>
       <h2 className="CustomPara1 sm:text-[16px] text-[14px]  mt-5">
         My inaugural year with{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
           React
         </button>{" "}
         was all about creating web designs that could make pixels jealous. The
         sequel brought a new role—designing API implementations and diving into
         the magic of{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
           Next.js.
         </button>{" "}
         Meanwhile, I traded my mechanical toolbox for{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
           Node.js and Express
         </button>{" "}
         to sculpt robust end-to-end solutions. Oh, and did I mention? My coding
         adventures now unfold in the intriguing domain of{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
           cryptocurrency.
         </button>{" "}
       </h2>
       <h2 className="CustomPara1 sm:text-[16px] text-[14px]  mt-5">
         Beyond the keyboard, I’m the{" "}
-        <span className="text-white  font-semibold CustomCarpanterCursor capitalize pb-[3px]  barDown hover:text-[#ff595a] ">
+        <span className="text-white  font-semibold CustomCarpanterCursor capitalize pb-[3px]  barDown hover:text-[#5CBE2E] ">
           carpenter
         </span>{" "}
         who can code and the{" "}
-        <span className=" inline-flex CustomGymCursor  barDown text-white pb-[2px]  font-semibold capitalize  hover:text-[#ff595a] ">
+        <span className=" inline-flex CustomGymCursor  barDown text-white pb-[2px]  font-semibold capitalize  hover:text-[#5CBE2E] ">
           gym enthusiast
         </span>{" "}
         who can debug. Join me as I navigate the crypto currents and build

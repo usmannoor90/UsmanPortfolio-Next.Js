@@ -68,22 +68,22 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       bootstrap
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Javascript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Jquery
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       .net framework
                     </span>
                   </div>
@@ -109,22 +109,22 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       bootstrap
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Javascript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Jquery
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       .net framework
                     </span>
                   </div>
@@ -150,22 +150,22 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       bootstrap
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Javascript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       react
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       spoonacular api
                     </span>
                   </div>
@@ -194,22 +194,22 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       bootstrap
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Javascript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Jquery
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       .net framework
                     </span>
                   </div>
@@ -240,29 +240,29 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       tailwind
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Javascript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       ReactJs
                     </span>
 
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       Node.Js/Express.Js
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       mysql
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       restful api
                     </span>
                   </div>
@@ -293,29 +293,29 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       tailwind
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Javascript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       ReactJs
                     </span>
 
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       Node.Js/Express.Js
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       MongoDB
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       restful api
                     </span>
                   </div>
@@ -344,25 +344,25 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       typeScript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       ReactJs
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       Node.Js/Express.Js
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       MongoDB
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px]  ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
                       restful api
                     </span>
                   </div>
@@ -388,19 +388,19 @@ function ProjectsModel() {
                 {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
                 <td className="hidden  lg:table-cell">
                   <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       html
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       css
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       bootstrap
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       Javascript
                     </span>
-                    <span className="text-xs uppercase font-[500] text-[#ff5959]  bg-[#ff59591f] px-3 py-[6px] rounded-[18px] ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
                       ReactJs
                     </span>
                   </div>

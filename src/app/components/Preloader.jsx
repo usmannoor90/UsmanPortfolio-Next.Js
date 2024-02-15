@@ -6,11 +6,11 @@ import MaskContainer from "../utils/MaskContainer";
 
 function Preloader({ OnClose }) {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center  overflow-hidden">
+    <div className="h-screen w-full flex items-center justify-center  overflow-hidden">
       <MaskContainer
         revealText={
           <div>
-            <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold ">
+            <p className="max-w-4xl mx-auto text-white text-center  text-4xl font-bold ">
               HOVER ME{" "}
             </p>
             <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold invisible">

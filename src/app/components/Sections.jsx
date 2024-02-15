@@ -19,7 +19,7 @@ function Sections() {
         href="mailto:m.usmannoor90@gmail.com"
         className="font-bold ml-4 text-2xl  fixed bottom-8 lg:block hidden left-0 [writing-mode:vertical-rl] [text-orientation:upright]   "
       >
-        <span className="  relative uppercase hover:text-[white]  ContactMeText  ">
+        <span className="  relative uppercase text-[white] hover:text-[#5CBE2E]  ContactMeText  ">
           contact me
         </span>
       </Link>
@@ -42,7 +42,7 @@ function Sections() {
                 M Usman Noor
               </ScrollLinks>
               <h2 className="mt-3 text-lg font-bold tracking-tight CustomPara sm:text-xl">
-                <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+                <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
                   Full-Stack Engineer
                 </button>{" "}
                 at CointBitSolutions
@@ -68,9 +68,9 @@ function Sections() {
                       duration={1500}
                       spyThrottle={500}
                       isDynamic={true}
-                      activeClass="before:[transition:100ms_ease-out] before:scale-y-[0.18] before:!bg-[rgba(255,89,90,1)] after:[transition:50ms_ease-out_100ms] after:transform-none !text-[rgba(255,89,90,1)]  !bg-transparent  "
+                      activeClass="before:[transition:100ms_ease-out] before:scale-y-[0.18] before:!bg-[rgba(92,190,46,1)] after:[transition:50ms_ease-out_100ms] after:transform-none !text-[rgba(92,190,46,1)]  !bg-transparent  "
                       className=" uppercase text-xl text-white cursor-pointer
-                        my-2 inline-block relative z-20 no-underline px-[12px] after:content-[''] after:z-[9] before:z-[8] after:block after:absolute before:content-[''] before:block before:absolute  before:[transition:100ms_ease-out_50ms] before:origin-[0_30px] before:top-[0] before:left-[0] before:w-full before:h-full bg-[rgba(255,89,90,0.6)]  after:[transition:50ms_ease-out] after:scale-x-0 after:origin-[left_center] after:bottom-[-7px] after:-right-[12px] after:border-[8px] after:border-solid after:border-[transparent] after:[border-left-color:rgba(255,89,90,1)]  hover:before:[transition:100ms_ease-out] hover:before:scale-y-[0.18] hover:before:bg-[rgba(255,89,90,0.7)] hover:after:[transition:50ms_ease-out_100ms] hover:after:transform-none   active:before:[transition:100ms_ease-in] active:before:bg-[rgba(255,89,90,1)] active:after:[border-left-color:rgba(255,89,90,1)]    active:after:[transition:100ms_ease-in] hover:after:[border-left-color:rgba(255,89,90,0.7)] hover:bg-transparent   hover:text-[rgba(255,89,90,0.5)]     "
+                        my-2 inline-block relative z-20 no-underline px-[12px] after:content-[''] after:z-[9] before:z-[8] after:block after:absolute before:content-[''] before:block before:absolute  before:[transition:100ms_ease-out_50ms] before:origin-[0_30px] before:top-[0] before:left-[0] before:w-full before:h-full bg-[rgba(92,190,46,0.2)]  after:[transition:50ms_ease-out] after:scale-x-0 after:origin-[left_center] after:bottom-[-7px] after:-right-[12px] after:border-[8px] after:border-solid after:border-[transparent] after:[border-left-color:rgba(92,190,46,1)]  hover:before:[transition:100ms_ease-out] hover:before:scale-y-[0.18] hover:before:bg-[rgba(92,190,46,1)] hover:after:[transition:50ms_ease-out_100ms] hover:after:transform-none   active:before:[transition:100ms_ease-in] active:before:bg-[rgba(92,190,46,1)] active:after:[border-left-color:rgba(92,190,46,1)]    active:after:[transition:100ms_ease-in] hover:after:[border-left-color:rgba(92,190,46,1)] hover:bg-transparent   hover:text-[rgba(92,190,46,0.5)]     "
                     >
                       {item.name}
                     </ScrollLinks>
@@ -78,11 +78,11 @@ function Sections() {
                 );
               })}
             </ul>
-            <ul className="footerLinks flex gap-6 pt-10 pb-6 list-none [&>li_a]:w-[45px] [&>li_a]:h-[45px] [&>li_a]:bg-[#CAC0B3] [&>li_a]:text-center [&>li_a]:leading-[80px] [&>li_a]:text-[35px]  [&>li_a]:my-[0] [&>li_a]:rounded-[50%] [&>li_a]:relative [&>li_a]:overflow-hidden  [&>li_a]:flex [&>li_a]:items-center [&>li_a]:justify-center ">
+            <ul className="flex gap-6 pt-10 pb-6 list-none [&>li_a]:w-[45px] [&>li_a]:h-[45px]  [&>li_a]:text-white  ">
               <li>
                 <Link href="https://github.com/usmannoor90" target="_blank">
                   <FaGithub
-                    className="icon  relative text-[#262626] [transition:0.5s]  z-10 "
+                    className=" [transition:0.2s] ease-linear hover:text-[#5CBE2E]   "
                     size={30}
                   />
                 </Link>
@@ -93,7 +93,7 @@ function Sections() {
                   target="_blank"
                 >
                   <FaInstagram
-                    className="icon  relative text-[#262626] [transition:0.5s]  z-10 "
+                    className=" [transition:0.2s] ease-linear hover:text-[#5CBE2E]   "
                     size={30}
                   />
                 </Link>
@@ -101,7 +101,7 @@ function Sections() {
               <li>
                 <Link href="https://twitter.com/USMAN35355507" target="_blank">
                   <FaXTwitter
-                    className="icon  relative text-[#262626] [transition:0.5s] z-10"
+                    className=" [transition:0.2s] ease-linear hover:text-[#5CBE2E] "
                     size={30}
                   />
                 </Link>
@@ -112,7 +112,7 @@ function Sections() {
                   target="_blank"
                 >
                   <FaLinkedin
-                    className="icon  relative text-[#262626] [transition:0.5s] z-10"
+                    className=" [transition:0.2s] ease-linear hover:text-[#5CBE2E] "
                     size={30}
                   />
                 </Link>
@@ -122,22 +122,22 @@ function Sections() {
               <h4 className="max-w-[500px] font-normal text-[#CAC0B3] capitalize">
                 Thank You For Exploring My Portfolio! I{"'"}m Excited To Connect
                 With You. Whether You Have A{" "}
-                <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+                <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
                   Project
                 </button>{" "}
                 In Mind,{" "}
-                <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+                <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
                   A Collaboration Proposal,
                 </button>{" "}
                 Or Just Want To Say{" "}
-                <button className="text-white  font-semibold capitalize barDown hover:text-[#ff595a] cursor-none ">
+                <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
                   Hello,
                 </button>{" "}
                 I{"'"}d Love To Hear From You.
               </h4>
               <Link
                 href="mailto:m.usmannoor90@gmail.com"
-                className="font-bold mt-6 uppercase py-4 px-7   lg:hidden inline-block rounded-md bg-[#FF595A] text-[white]  "
+                className="font-bold mt-6 uppercase py-4 px-7 lg:hidden inline-block rounded-md bg-[#5CBE2E] text-[white]  "
               >
                 {" "}
                 contact me{" "}
@@ -154,7 +154,7 @@ function Sections() {
                   key={item.name}
                 >
                   <div>
-                    <div className="sticky lg:hidden text-[#CAC0B3] bg-[rgba(0,18,51,0.5)] shadow-xl  mb-5  top-0 text-left w-full  py-4 sm:px-10 px-2 backdrop-filter backdrop-blur-[5px] text-xl  font-bold  uppercase  z-[222] ">
+                    <div className="sticky lg:hidden text-[#CAC0B3] bg-[rgba(92,190,46,0.1)] shadow-xl  mb-5  top-0 text-left w-full  py-4 sm:px-10 px-2 backdrop-filter backdrop-blur-[5px] text-xl  font-bold  uppercase  z-[222] ">
                       {item.name}
                     </div>
                     <div className="md:px-12   sm:px-6 px-2  sm:py-[4rem] py-[2rem] ">

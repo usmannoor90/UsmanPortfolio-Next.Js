@@ -29,7 +29,7 @@ function CursorPointer() {
 
   return (
     <div
-      className={`fixed rounded-[50%] mix-blend-screen pointer-events-none -translate-x-1/2 -translate-y-1/2 backdrop-filter backdrop-blur-[1px]  [transition:all_0.2s_linear]   ${
+      className={`fixed pointerNone rounded-[50%] mix-blend-screen pointer-events-none -translate-x-1/2 -translate-y-1/2 backdrop-filter backdrop-blur-[1px]  [transition:all_0.2s_linear]   ${
         isPointer ? "!opacity-0 [transition:all_0.2s_linear]" : ""
       }`}
       style={{
@@ -40,7 +40,7 @@ function CursorPointer() {
         height: `${flareSize}px`,
 
         background:
-          "radial-gradient(600px circle at 500px 500px,rgba(29, 78, 216, 0.2),transparent 70%)",
+          "radial-gradient(600px circle at 500px 500px,rgba(92, 190, 46, 0.2),transparent 70%)",
       }}
     ></div>
   );
