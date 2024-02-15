@@ -32,6 +32,12 @@ export default function Home() {
   };
 
   useEffect(() => {
+    if (window.innerWidth <= 1200) {
+      setLoadingScreen(false);
+    }
+  }, [setLoadingScreen]);
+
+  useEffect(() => {
     if (!LoadingScreen) {
       router.push("#about", { scroll: true });
     }
