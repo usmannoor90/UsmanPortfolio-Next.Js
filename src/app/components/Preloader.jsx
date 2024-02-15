@@ -21,7 +21,7 @@ function Preloader({ OnClose }) {
         }
         className="h-[40rem] border rounded-md"
       >
-        <div className="sm:text-6xl text-4xl font-bold text-center z-40 mb-16 pb-16  ">
+        <div className="sm:text-6xl text-4xl font-bold text-center z-40 mb-16 pb-10  ">
           <h2 className="sm:mb-3  mb-1 ">M Usman Noor</h2>
           <h2> Web Developer</h2>{" "}
         </div>
