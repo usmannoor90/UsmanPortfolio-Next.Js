@@ -17,14 +17,14 @@ function Experience() {
           key={2}
         >
           <h3 className="  text-[14px]  text-[#cac0b3c0]">2022-Present</h3>
-          <div className="flex gap-3 items-center justify-start my-2">
+          <div className="flex gap-1 items-center justify-start my-2">
             <h2 className="lg:text-white font-bold text-[#5CBE2E] group-hover:text-[#5CBE2E] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
               Full-Stack Engineer
             </h2>
             <h2 className=" sm:text-[14px] text-[12px] whitespace-nowrap  text-[#cac0b3c0]  ">
               ( CointBitSolutions )
             </h2>
-            <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+            <MdOutlineArrowOutward className="group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
           </div>
           <p className="  text-[#CAC0B3]  sm:text-[15px] text-[13px] ">
             Successfully developed and deployed several web applications
@@ -118,7 +118,7 @@ function Experience() {
       </div>
       <Link className="flex gap-1 group mt-[4rem] sm:mb-0 mb-[4rem] " href={""}>
         <span className="font-bold capitalize">View Full Résumé</span>
-        <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+        <MdOutlineArrowOutward className=" group-hover:rotate-45 translate-y-1 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
       </Link>
     </>
   );

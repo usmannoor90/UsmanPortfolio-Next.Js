@@ -14,8 +14,9 @@ function Preloader({ OnClose }) {
               HOVER ME{" "}
             </p>
             <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold invisible">
-              The first rule of MRR Club is you do not talk about MRR Club. The
-              second rule of MRR Club is you DO NOT talk about MRR Club.
+              Usman Noor Web Development Usman Noor Web Development Usman Noor
+              Web DevelopmentUsman Noor Web Development Usman Noor Web
+              Development.
             </p>
           </div>
         }

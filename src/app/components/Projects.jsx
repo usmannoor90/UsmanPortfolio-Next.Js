@@ -33,7 +33,7 @@ function Projects() {
                 <h2 className="lg:text-white font-bold text-[#5CBE2E] group-hover:text-[#5CBE2E] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   TraderGPT Clone
                 </h2>
-                <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+                <MdOutlineArrowOutward className="group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
               </div>
               <p className=" text-[#CAC0B3]  sm:text-[15px] text-[13px] ">
                 Tradera.ai, innovative trading platform powered by artificial
@@ -88,7 +88,7 @@ function Projects() {
                 <h2 className="lg:text-white font-bold text-[#5CBE2E] group-hover:text-[#5CBE2E] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   NewHorizon
                 </h2>
-                <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+                <MdOutlineArrowOutward className="group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
               </div>
               <p className=" text-[#CAC0B3]  sm:text-[15px] text-[13px] ">
                 At New Horizon Healthcare Management, It provide unique,
@@ -144,7 +144,7 @@ function Projects() {
                 <h2 className="lg:text-white font-bold text-[#5CBE2E] group-hover:text-[#5CBE2E] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   Ko-Fi Clone
                 </h2>
-                <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+                <MdOutlineArrowOutward className="group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
               </div>
               <p className=" text-[#CAC0B3]  sm:text-[15px] text-[13px] ">
                 A replica of Ko-Fi with design and functionality. Explore the
@@ -198,7 +198,7 @@ function Projects() {
                 <h2 className="lg:text-white font-bold text-[#5CBE2E] group-hover:text-[#5CBE2E] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   Sponsa
                 </h2>
-                <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+                <MdOutlineArrowOutward className="group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
               </div>
               <p className=" text-[#CAC0B3]  sm:text-[15px] text-[13px] ">
                 A replica of Ko-Fi with design and functionality. Explore the
@@ -243,7 +243,7 @@ function Projects() {
                 <h2 className="lg:text-white font-bold text-[#5CBE2E] group-hover:text-[#5CBE2E] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   M Usman Portfolio v1
                 </h2>
-                <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+                <MdOutlineArrowOutward className="group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
               </div>
               <p className=" text-[#CAC0B3]  sm:text-[15px] text-[13px] ">
                 After two years of dedicated learning and project creation, I

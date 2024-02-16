@@ -13,7 +13,7 @@ function ProjectsModel() {
     <>
       <button onClick={onOpenModal} className="rounded-md flex gap-1 group    ">
         <span className="font-bold capitalize">See Projects Archeive</span>
-        <MdOutlineArrowOutward className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-[all_0.1s] ease-linear  " />
+        <MdOutlineArrowOutward className="group-hover:rotate-45 translate-y-1 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
       </button>
       <Modal
         classNames={{
@@ -88,13 +88,13 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell whitespace-nowrap   ">
+                <td className="hidden  sm:table-cell  group  ">
                   <Link
                     href={"https://housekey.coinbitsolutions.com/"}
                     target="_blank"
                   >
                     housekey.coinbitsolutions.com{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear " />
                   </Link>
                 </td>
               </tr>
@@ -129,10 +129,10 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell    ">
+                <td className="hidden  sm:table-cell  group    ">
                   <Link href={"https://php.beweb3.com/"} target="_blank">
                     php.beweb3.com/{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
                 </td>
               </tr>
@@ -170,13 +170,13 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell    ">
+                <td className="hidden  sm:table-cell  group    ">
                   <Link
                     href={"https://usmannoor90.github.io/deliciouse/"}
                     target="_blank"
                   >
                     usmannoor90.github.io/{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
                 </td>
               </tr>
@@ -214,13 +214,13 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell    ">
+                <td className="hidden  sm:table-cell  group    ">
                   <Link
                     href={"https://trakify.coinbitsolutions.com/"}
                     target="_blank"
                   >
                     trakify.coinbitsolutions.com{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
                 </td>
               </tr>
@@ -267,7 +267,7 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell    ">
+                <td className="hidden  sm:table-cell  group    ">
                   <Link
                     href={
                       "https://github.com/usmannoor90/React-Node-MySql-FullStack"
@@ -275,7 +275,7 @@ function ProjectsModel() {
                     target="_blank"
                   >
                     github/usmannoor90/React-Node-MySql-FullStack{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
                 </td>
               </tr>
@@ -320,13 +320,13 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell    ">
+                <td className="hidden  sm:table-cell  group    ">
                   <Link
                     href={"https://github.com/usmannoor90/Mern-Chat"}
                     target="_blank"
                   >
                     github/usmannoor90/Mern-Chat{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
                 </td>
               </tr>
@@ -367,13 +367,13 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell    ">
+                <td className="hidden  sm:table-cell  group    ">
                   <Link
                     href={"https://github.com/usmannoor90/moviewebstack"}
                     target="_blank"
                   >
                     github/usmannoor90/moviewebstack{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
                 </td>
               </tr>
@@ -405,10 +405,10 @@ function ProjectsModel() {
                     </span>
                   </div>
                 </td>
-                <td className="hidden  sm:table-cell    ">
+                <td className="hidden  sm:table-cell  group    ">
                   <Link href={"https://cbs.beweb3.com/"} target="_blank">
                     cbs.beweb3.com/{" "}
-                    <MdOutlineArrowOutward className=" inline  " />
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
                 </td>
               </tr>

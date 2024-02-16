@@ -5,6 +5,7 @@ import { Element, Link as ScrollLinks } from "react-scroll";
 import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 function Sections() {
   const list = [
@@ -17,9 +18,9 @@ function Sections() {
     <div className="relative">
       <Link
         href="mailto:m.usmannoor90@gmail.com"
-        className="font-bold ml-4 text-2xl  fixed bottom-8 lg:block hidden left-0 [writing-mode:vertical-rl] [text-orientation:upright]   "
+        className="font-bold  text-2xl   fixed bottom-8 lg:block hidden left-5 [writing-mode:vertical-rl] [text-orientation:upright]   "
       >
-        <span className="  relative uppercase text-[white] hover:text-[#5CBE2E]  ContactMeText  ">
+        <span className="relative uppercase text-[white] hover:text-[#5CBE2E]  ContactMeText  ">
           contact me
         </span>
       </Link>
@@ -118,7 +119,7 @@ function Sections() {
                 </Link>
               </li>
             </ul>
-            <div className="mb-10">
+            <div className="sm:mb-10">
               <h4 className="max-w-[500px] font-normal text-[#CAC0B3] capitalize">
                 Thank You For Exploring My Portfolio! I{"'"}m Excited To Connect
                 With You. Whether You Have A{" "}
@@ -135,13 +136,15 @@ function Sections() {
                 </button>{" "}
                 I{"'"}d Love To Hear From You.
               </h4>
+
               <Link
+                className=" gap-1 group mt-[4rem] lg:hidden inline-flex sm:mb-0 mb-[4rem] "
                 href="mailto:m.usmannoor90@gmail.com"
-                className="font-bold mt-6 uppercase py-4 px-7 lg:hidden inline-block rounded-md bg-[#5CBE2E] text-[white]  "
               >
-                {" "}
-                contact me{" "}
+                <span className="font-bold capitalize"> contact me </span>
+                <MdOutlineArrowOutward className=" group-hover:rotate-45 translate-y-1 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
               </Link>
+
               {/* <ContactModal />   */}
             </div>
           </header>
