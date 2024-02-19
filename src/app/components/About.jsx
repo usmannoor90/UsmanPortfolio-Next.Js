@@ -22,7 +22,7 @@ function About() {
         </button>{" "}
         Meanwhile, I traded my mechanical toolbox for{" "}
         <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
-          Node.js and Express
+          Node.js and Express.Js
         </button>{" "}
         to sculpt robust end-to-end solutions. Oh, and did I mention? My coding
         adventures now unfold in the intriguing domain of{" "}

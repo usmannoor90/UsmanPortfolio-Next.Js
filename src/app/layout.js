@@ -21,7 +21,15 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="relative">
-       
+        <div className="fixed">
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+          <div id="stars3"></div>
+        </div>
+
         {children}
       </body>
     </html>
