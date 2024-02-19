@@ -67,6 +67,14 @@ export default function Home() {
           <Preloader OnClose={OnClose} open={LoadingScreen} />
         ) : (
           <>
+            <div className="fixed">
+              <div id="stars"></div>
+              <div id="stars"></div>
+              <div id="stars2"></div>
+              <div id="stars2"></div>
+              <div id="stars3"></div>
+              <div id="stars3"></div>
+            </div>
             <motion.div
               layout
               initial={{ opacity: 0 }}
