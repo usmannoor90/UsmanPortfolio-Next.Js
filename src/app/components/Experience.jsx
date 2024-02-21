@@ -116,7 +116,14 @@ function Experience() {
           </div>
         </div> */}
       </div>
-      <Link className="flex gap-1 group mt-[4rem] sm:mb-0 mb-[4rem] " href={""}>
+
+      <Link
+        className="flex gap-1 group mt-[4rem] sm:mb-0 mb-[4rem] "
+        href={"/pdf/MUsmanResume.pdf"}
+        download
+        target="_blank"
+        rel="noreferrer"
+      >
         <span className="font-bold capitalize">View Full Résumé</span>
         <MdOutlineArrowOutward className=" group-hover:rotate-45 translate-y-1 group-hover:translate-x-2  transition-[all_0.1s] ease-linear  " />
       </Link>

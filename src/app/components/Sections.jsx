@@ -6,6 +6,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import TypingCarousel from "./TypingCarousel";
 
 function Sections() {
   const list = [
@@ -18,7 +19,7 @@ function Sections() {
     <div className="relative">
       <Link
         href="mailto:m.usmannoor90@gmail.com"
-        className="font-bold  text-2xl   fixed bottom-8 lg:block hidden left-5 [writing-mode:vertical-rl] [text-orientation:upright]   "
+        className="font-bold  text-2xl z-[250]   fixed bottom-8 lg:block hidden left-5 [writing-mode:vertical-rl] [text-orientation:upright]   "
       >
         <span className="relative uppercase text-[white] hover:text-[#5CBE2E]  ContactMeText  ">
           contact me
@@ -43,10 +44,7 @@ function Sections() {
                 M Usman Noor
               </ScrollLinks>
               <h2 className="mt-3 text-lg font-bold tracking-tight CustomPara sm:text-xl">
-                <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
-                  Full-Stack Engineer
-                </button>{" "}
-                at CointBitSolutions
+                I Am Good At <TypingCarousel />
               </h2>
               <p className="mt-4 font-light leading-normal CustomPara">
                 I build pixel-perfect, engaging, and accessible digital
