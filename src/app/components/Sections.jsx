@@ -6,7 +6,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import TypingCarousel from "./TypingCarousel";
+import { TypeAnimation } from "react-type-animation";
 
 function Sections() {
   const list = [
@@ -44,7 +44,22 @@ function Sections() {
                 M Usman Noor
               </ScrollLinks>
               <h2 className="mt-3 text-lg font-bold tracking-tight CustomPara sm:text-xl">
-                I Am Good At <TypingCarousel />
+                Hi! I{"'"}m a{" "}
+                <TypeAnimation
+                  sequence={[
+                    // Same substring at the start will only be typed once, initially
+                    "React.js/Next.js Developer",
+                    1000,
+                    "Node.js/Express.js Enthusiast",
+                    1000,
+                    "Database Maestro",
+                    1000,
+                  ]}
+                  speed={50}
+                  className="text-white type  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none"
+                  repeat={Infinity}
+                  cursor={10}
+                />
               </h2>
               <p className="mt-4 font-light leading-normal CustomPara">
                 I build pixel-perfect, engaging, and accessible digital
