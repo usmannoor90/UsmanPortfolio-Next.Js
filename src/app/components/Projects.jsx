@@ -16,7 +16,7 @@ function Projects() {
   return (
     <>
       <div className="lg:mx-0 sm:mx-4 group/list mt-10   [&>div]:mb-4 ">
-        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] sm:shadow-none [box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px] ">
+        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] lg:!shadow-none ![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px] ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={traderaai}
@@ -73,7 +73,7 @@ function Projects() {
             </span>
           </div>
         </div>
-        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] sm:shadow-none [box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
+        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] lg:!shadow-none ![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={NHImage}
@@ -127,7 +127,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] sm:shadow-none [box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
+        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] lg:!shadow-none ![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={sponsa2}
@@ -181,7 +181,7 @@ function Projects() {
             </span>
           </div>
         </div>
-        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] sm:shadow-none [box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
+        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] lg:!shadow-none ![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={sponsa}
@@ -226,7 +226,7 @@ function Projects() {
             </span>
           </div>
         </div>
-        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] sm:shadow-none [box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
+        <div className="  rounded-[6px] lg:group-hover/list:opacity-50 hover:!opacity-100 w-full border-[1px] border-transparent  hover:border-[1px] hover:border-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,0.1)]  hover:![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] hover:backdrop-filter hover:backdrop-blur-[5px] transition-[all_0.1s] ease-linear sm:px-6 sm:py-6 p-2  group lg:bg-transparent bg-[rgba(0,0,0,0)] lg:!shadow-none ![box-shadow:0_0px_10px_0_rgba(92,190,46,0.2)] lg:backdrop-filter-none   backdrop-filter backdrop-blur-[5px]  ">
           <div className="flex gap-5 sm:flex-nowrap  flex-wrap  ">
             <Image
               src={Portfolio}
