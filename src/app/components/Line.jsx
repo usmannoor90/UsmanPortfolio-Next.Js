@@ -101,7 +101,7 @@ export const TracingBeam = ({ children, className }) => {
         React.createElement(motion.path, {
           d: `M 1 0V -36 l 18 24 V ${svgHeight * 0.8} l -18 24V ${svgHeight}`,
           fill: "none",
-          stroke: "#9091A0",
+          stroke: "rgba(255, 255, 255, 1)",
           strokeOpacity: "0.16",
           transition: {
             duration: 10,
@@ -131,17 +131,17 @@ export const TracingBeam = ({ children, className }) => {
               y2: y2,
             },
             React.createElement("stop", {
-              stopColor: "#18CCFC",
+              stopColor: "rgba(92, 190, 46, 1)",
               stopOpacity: "0",
             }),
-            React.createElement("stop", { stopColor: "#18CCFC" }),
+            React.createElement("stop", { stopColor: "rgba(92, 190, 46, 1)" }),
             React.createElement("stop", {
               offset: "0.325",
-              stopColor: "#6344F5",
+              stopColor: "rgba(92, 190, 46, 1)",
             }),
             React.createElement("stop", {
               offset: "1",
-              stopColor: "#AE48FF",
+              stopColor: "rgba(92, 190, 46, 1)",
               stopOpacity: "0",
             })
           )

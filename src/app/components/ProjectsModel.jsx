@@ -228,6 +228,57 @@ function ProjectsModel() {
                 <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
                   <Link
+                    href={"https://github.com/usmannoor90/SocialNoorWeb"}
+                    target="_blank"
+                  >
+                    NoorSocialApp
+                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
+                  </Link>
+                </td>
+
+                <td className="hidden  lg:table-cell">
+                  <div className="  flex flex-wrap gap-1 items-center ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      html
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      css
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      material ui
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      Javascript
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      ReactJs
+                    </span>
+
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+                      Node.Js/Express.Js
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+                      MongoDB
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+                      restful api
+                    </span>
+                  </div>
+                </td>
+                <td className="hidden  sm:table-cell  group    ">
+                  <Link
+                    href={"https://github.com/usmannoor90/SocialNoorWeb"}
+                    target="_blank"
+                  >
+                    github/usmannoor90/React-Node-MySql-FullStack{" "}
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
+                  </Link>
+                </td>
+              </tr>
+              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
+                <td className="table-cell"> 2023 </td>
+                <td className="table-cell !text-white   ">
+                  <Link
                     href={
                       "https://github.com/usmannoor90/React-Node-MySql-FullStack"
                     }
@@ -381,7 +432,7 @@ function ProjectsModel() {
                 <td className="table-cell"> 2022 </td>
                 <td className="table-cell !text-white   ">
                   <Link href={"https://cbs.beweb3.com/"} target="_blank">
-                    CBS Compnay site by Me
+                    CBS Company site by Me
                     <MdOutlineArrowOutward className=" inline sm:hidden  " />
                   </Link>
                 </td>
