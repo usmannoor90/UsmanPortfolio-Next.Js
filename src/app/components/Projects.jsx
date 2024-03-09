@@ -83,7 +83,9 @@ function Projects() {
             <div>
               <div
                 className="flex gap-1 items-center mb-2  cursor-pointer  "
-                onClick={() => window.open("https:newhorizonhm.com", "_blank")}
+                onClick={() =>
+                  window.open("https://newhorizonhm.com", "_blank")
+                }
               >
                 <h2 className="lg:text-white font-bold text-[#5CBE2E] group-hover:text-[#5CBE2E] sm:text-xl text-[14px] whitespace-nowrap  transition-[all_0.1s] ease-linear ">
                   NewHorizon
