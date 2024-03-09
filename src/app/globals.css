@@ -25,6 +25,10 @@ body,
 .font-sans {
   font-family: var(--font-inter);
 }
+html,
+body {
+  min-height: 100vh;
+}
 
 body {
   color: rgb(var(--foreground-rgb));

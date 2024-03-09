@@ -30,7 +30,7 @@ function Sections() {
       <div className="mx-auto min-h-screen max-w-screen-xl  py-12  md:py-20 lg:py-0">
         <TracingBeam>
           <div className="relative z-40 lg:flex lg:justify-between lg:gap-4">
-            <header className=" lg:sticky lg:top-0 lg:flex max-h-[700px] lg:w-1/2 lg:flex-col lg:justify-between lg:py-20  lg:px-20 md:px-12  px-6  ">
+            <header className=" lg:sticky lg:top-0 lg:flex max-h-[600px] lg:w-1/2 lg:flex-col lg:justify-between lg:py-20  lg:px-20 md:px-12  px-6  ">
               <div>
                 <ScrollLinks
                   to="about"
@@ -166,7 +166,7 @@ function Sections() {
                 {/* <ContactModal />   */}
               </div>
             </header>
-            <div className=" pt-10 lg:w-1/2 lg:py-12  ">
+            <div className=" pt-10 lg:w-1/2 lg:pt-12  ">
               {list.map((item) => {
                 return (
                   <Element

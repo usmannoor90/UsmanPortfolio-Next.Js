@@ -58,7 +58,9 @@ export const TracingBeam = ({ children, className }) => {
     },
     React.createElement(
       "div",
-      { className: "absolute right-2 top-16 lg:block hidden   " },
+      {
+        className: "absolute right-2 top-16 lg:block h-fit hidden   ",
+      },
       React.createElement(
         motion.div,
         {
