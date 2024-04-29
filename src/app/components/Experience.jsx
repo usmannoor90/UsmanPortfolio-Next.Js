@@ -1,12 +1,19 @@
 import Link from "next/link";
 import React from "react";
-import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa6";
+import {
+  FaCss3Alt,
+  FaDocker,
+  FaHtml5,
+  FaLinux,
+  FaReact,
+} from "react-icons/fa6";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMysql, SiTypescript } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { AiTwotoneApi } from "react-icons/ai";
+import { AiFillApi, AiTwotoneApi } from "react-icons/ai";
+import { DiGit, DiMongodb, DiMsqlServer } from "react-icons/di";
 
 function Experience() {
   return (
@@ -64,10 +71,25 @@ function Experience() {
               postgresql <BiLogoPostgresql />
             </span>
             <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
-              restful api
+              MS SQL <DiMsqlServer />
+            </span>
+            <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+              MongoDB <DiMongodb />
+            </span>
+            <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+              restful api <AiFillApi />
             </span>
             <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
               Web Sockets <AiTwotoneApi />
+            </span>
+            <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+              Docker <FaDocker />
+            </span>
+            <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+              Git <DiGit />
+            </span>
+            <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+              Linux <FaLinux />
             </span>
           </div>
         </div>

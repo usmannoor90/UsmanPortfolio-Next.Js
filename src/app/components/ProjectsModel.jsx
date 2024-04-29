@@ -55,6 +55,101 @@ function ProjectsModel() {
             </thead>
             <tbody className=" px-6 py-5">
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
+                <td className="table-cell"> 2024 </td>
+                <td className="table-cell !text-white   ">
+                  <Link href={"http://maincore.beweb3.com/"} target="_blank">
+                    Maincore Blockchain UAE & PAK Venture
+                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
+                  </Link>
+                </td>
+                {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
+                <td className="hidden  lg:table-cell">
+                  <div className="  flex flex-wrap gap-1 items-center ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      html
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      css
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      tailwind
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      TypeScript
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      NextJs
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      NextAuth
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      MS SQL
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      RESTFUL API
+                    </span>
+                  </div>
+                </td>
+                <td className="hidden  sm:table-cell  group  ">
+                  <Link href={"http://maincore.beweb3.com/"} target="_blank">
+                    maincore.beweb3.com/{" "}
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear " />
+                  </Link>
+                </td>
+              </tr>
+              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
+                <td className="table-cell"> 2024 </td>
+                <td className="table-cell !text-white   ">
+                  <Link
+                    href={"https://github.com/usmannoor90/Mern-Chat"}
+                    target="_blank"
+                  >
+                    Node-Chat App
+                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
+                  </Link>
+                </td>
+                {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
+                <td className="hidden  lg:table-cell">
+                  <div className="  flex flex-wrap gap-1 items-center ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      html
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      css
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      tailwind
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      Javascript
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      ReactJs
+                    </span>
+
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+                      Node.Js/Express.Js
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+                      MongoDB
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
+                      restful api
+                    </span>
+                  </div>
+                </td>
+                <td className="hidden  sm:table-cell  group    ">
+                  <Link
+                    href={"https://github.com/usmannoor90/Mern-Chat"}
+                    target="_blank"
+                  >
+                    github/usmannoor90/Mern-Chat{" "}
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
+                  </Link>
+                </td>
+              </tr>
+              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
                 <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
                   <Link
@@ -136,94 +231,7 @@ function ProjectsModel() {
                   </Link>
                 </td>
               </tr>
-              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2022 </td>
-                <td className="table-cell !text-white   ">
-                  <Link
-                    href={"https://usmannoor90.github.io/deliciouse/"}
-                    target="_blank"
-                  >
-                    Deliciouse
-                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
-                  </Link>
-                </td>
-                {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
-                <td className="hidden  lg:table-cell">
-                  <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      html
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      css
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      bootstrap
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      Javascript
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      react
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      spoonacular api
-                    </span>
-                  </div>
-                </td>
-                <td className="hidden  sm:table-cell  group    ">
-                  <Link
-                    href={"https://usmannoor90.github.io/deliciouse/"}
-                    target="_blank"
-                  >
-                    usmannoor90.github.io/{" "}
-                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
-                  </Link>
-                </td>
-              </tr>
-              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2022 </td>
-                <td className="table-cell !text-white   ">
-                  <Link
-                    href={"https://trakify.coinbitsolutions.com/"}
-                    target="_blank"
-                  >
-                    Trakify
-                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
-                  </Link>
-                </td>
-                {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
-                <td className="hidden  lg:table-cell">
-                  <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      html
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      css
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      bootstrap
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      Javascript
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      Jquery
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      .net framework
-                    </span>
-                  </div>
-                </td>
-                <td className="hidden  sm:table-cell  group    ">
-                  <Link
-                    href={"https://trakify.coinbitsolutions.com/"}
-                    target="_blank"
-                  >
-                    trakify.coinbitsolutions.com{" "}
-                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
-                  </Link>
-                </td>
-              </tr>
+
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
                 <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
@@ -330,57 +338,7 @@ function ProjectsModel() {
                   </Link>
                 </td>
               </tr>
-              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2024 </td>
-                <td className="table-cell !text-white   ">
-                  <Link
-                    href={"https://github.com/usmannoor90/Mern-Chat"}
-                    target="_blank"
-                  >
-                    Node-Chat App
-                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
-                  </Link>
-                </td>
-                {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
-                <td className="hidden  lg:table-cell">
-                  <div className="  flex flex-wrap gap-1 items-center ">
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      html
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      css
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      tailwind
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      Javascript
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
-                      ReactJs
-                    </span>
 
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
-                      Node.Js/Express.Js
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
-                      MongoDB
-                    </span>
-                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
-                      restful api
-                    </span>
-                  </div>
-                </td>
-                <td className="hidden  sm:table-cell  group    ">
-                  <Link
-                    href={"https://github.com/usmannoor90/Mern-Chat"}
-                    target="_blank"
-                  >
-                    github/usmannoor90/Mern-Chat{" "}
-                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
-                  </Link>
-                </td>
-              </tr>
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
                 <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
@@ -428,6 +386,95 @@ function ProjectsModel() {
                   </Link>
                 </td>
               </tr>
+              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
+                <td className="table-cell"> 2022 </td>
+                <td className="table-cell !text-white   ">
+                  <Link
+                    href={"https://trakify.coinbitsolutions.com/"}
+                    target="_blank"
+                  >
+                    Trakify
+                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
+                  </Link>
+                </td>
+                {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
+                <td className="hidden  lg:table-cell">
+                  <div className="  flex flex-wrap gap-1 items-center ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      html
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      css
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      bootstrap
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      Javascript
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      Jquery
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      .net framework
+                    </span>
+                  </div>
+                </td>
+                <td className="hidden  sm:table-cell  group    ">
+                  <Link
+                    href={"https://trakify.coinbitsolutions.com/"}
+                    target="_blank"
+                  >
+                    trakify.coinbitsolutions.com{" "}
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
+                  </Link>
+                </td>
+              </tr>
+              <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
+                <td className="table-cell"> 2022 </td>
+                <td className="table-cell !text-white   ">
+                  <Link
+                    href={"https://usmannoor90.github.io/deliciouse/"}
+                    target="_blank"
+                  >
+                    Deliciouse
+                    <MdOutlineArrowOutward className=" inline sm:hidden  " />
+                  </Link>
+                </td>
+                {/* <td className="hidden  lg:table-cell">CoinBitSolutions </td> */}
+                <td className="hidden  lg:table-cell">
+                  <div className="  flex flex-wrap gap-1 items-center ">
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      html
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      css
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      bootstrap
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      Javascript
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      react
+                    </span>
+                    <span className="text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
+                      spoonacular api
+                    </span>
+                  </div>
+                </td>
+                <td className="hidden  sm:table-cell  group    ">
+                  <Link
+                    href={"https://usmannoor90.github.io/deliciouse/"}
+                    target="_blank"
+                  >
+                    usmannoor90.github.io/{" "}
+                    <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
+                  </Link>
+                </td>
+              </tr>
+
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
                 <td className="table-cell"> 2022 </td>
                 <td className="table-cell !text-white   ">
