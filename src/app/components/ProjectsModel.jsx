@@ -99,7 +99,7 @@ function ProjectsModel() {
                 </td>
               </tr>
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2024 </td>
+                <td className="table-cell"> 2022 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={"https://github.com/usmannoor90/Mern-Chat"}
@@ -284,7 +284,7 @@ function ProjectsModel() {
                 </td>
               </tr>
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2023 </td>
+                <td className="table-cell"> 2022 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={
@@ -340,7 +340,7 @@ function ProjectsModel() {
               </tr>
 
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2023 </td>
+                <td className="table-cell"> 2022 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={"https://github.com/usmannoor90/moviewebstack"}
@@ -431,7 +431,7 @@ function ProjectsModel() {
                 </td>
               </tr>
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2022 </td>
+                <td className="table-cell"> 2021 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={"https://usmannoor90.github.io/deliciouse/"}
@@ -476,7 +476,7 @@ function ProjectsModel() {
               </tr>
 
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2022 </td>
+                <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
                   <Link href={"https://cbs.beweb3.com/"} target="_blank">
                     CBS Company site by Me
