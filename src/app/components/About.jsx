@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="lg:pt-16">
       <h2 className="CustomPara1 sm:text-[16px] text-[14px] font-normal   ">
-        Back In 2021, I made the switch from nuts and bolts as a freshly
+        Back in 2021, I made the switch from nuts and bolts as a freshly
         graduated Mechanical Engineer to weaving digital wonders in the realm of
         web development.
       </h2>
@@ -24,11 +24,13 @@ function About() {
         <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
           Node.js and Express.Js
         </button>{" "}
-        to sculpt robust end-to-end solutions. Oh, and did I mention? My coding
-        adventures now unfold in the intriguing domain of{" "}
+        to sculpt robust end-to-end solutions. Recently, I’ve expanded my
+        expertise to include Docker, Linux, Python, and Bash scripting,
+        enhancing my{" "}
         <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
-          cryptocurrency.
+          DevOps
         </button>{" "}
+        capabilities.
       </h2>
       <h2 className="CustomPara1 sm:text-[16px] text-[14px]  mt-5">
         Beyond the keyboard, I’m the{" "}
@@ -39,8 +41,8 @@ function About() {
         <span className=" inline-flex CustomGymCursor  barDown text-white pb-[2px]  font-semibold capitalize  hover:text-[#5CBE2E] ">
           gym enthusiast
         </span>{" "}
-        who can debug. Join me as I navigate the crypto currents and build
-        digital wonders!
+        who can debug. Join me as I build digital wonders and navigate the
+        evolving landscape of DevOps and AWS!
       </h2>
       <h2 className="CustomPara1 sm:text-[16px] text-[14px]  mt-5">
         Ready for a laugh, a chat, or the next big project? Let’s connect and

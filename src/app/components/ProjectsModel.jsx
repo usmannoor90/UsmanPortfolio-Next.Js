@@ -150,7 +150,7 @@ function ProjectsModel() {
                 </td>
               </tr>
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2023 </td>
+                <td className="table-cell"> 2022 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={"https://housekey.coinbitsolutions.com/"}
@@ -196,7 +196,7 @@ function ProjectsModel() {
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
                 <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
-                  <Link href={"https://php.beweb3.com/"} target="_blank">
+                  <Link href={"https://php.validatione.com/"} target="_blank">
                     PHP
                     <MdOutlineArrowOutward className=" inline sm:hidden  " />
                   </Link>
@@ -225,7 +225,7 @@ function ProjectsModel() {
                   </div>
                 </td>
                 <td className="hidden  sm:table-cell  group    ">
-                  <Link href={"https://php.beweb3.com/"} target="_blank">
+                  <Link href={"https://php.validatione.com/"} target="_blank">
                     php.beweb3.com/{" "}
                     <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
@@ -233,7 +233,7 @@ function ProjectsModel() {
               </tr>
 
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2023 </td>
+                <td className="table-cell"> 2022 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={"https://github.com/usmannoor90/SocialNoorWeb"}
@@ -284,7 +284,7 @@ function ProjectsModel() {
                 </td>
               </tr>
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2022 </td>
+                <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={
@@ -387,7 +387,7 @@ function ProjectsModel() {
                 </td>
               </tr>
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
-                <td className="table-cell"> 2022 </td>
+                <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
                   <Link
                     href={"https://trakify.coinbitsolutions.com/"}
@@ -434,7 +434,7 @@ function ProjectsModel() {
                 <td className="table-cell"> 2021 </td>
                 <td className="table-cell !text-white   ">
                   <Link
-                    href={"https://usmannoor90.github.io/deliciouse/"}
+                    href={"https://usmannoor90.github.io/DELICIOUSE/"}
                     target="_blank"
                   >
                     Deliciouse
@@ -466,7 +466,7 @@ function ProjectsModel() {
                 </td>
                 <td className="hidden  sm:table-cell  group    ">
                   <Link
-                    href={"https://usmannoor90.github.io/deliciouse/"}
+                    href={"https://usmannoor90.github.io/DELICIOUSE/"}
                     target="_blank"
                   >
                     usmannoor90.github.io/{" "}
@@ -478,7 +478,7 @@ function ProjectsModel() {
               <tr className=" [&>td]:text-[#ffffff9c]  border-b border-slate-300/10    [&>td]:py-4 [&>td]:pr-8 [&>td]:text-sm [&>td]:font-semibold ">
                 <td className="table-cell"> 2023 </td>
                 <td className="table-cell !text-white   ">
-                  <Link href={"https://cbs.beweb3.com/"} target="_blank">
+                  <Link href={"http://cbs.beweb3.com/"} target="_blank">
                     CBS Company site by Me
                     <MdOutlineArrowOutward className=" inline sm:hidden  " />
                   </Link>
@@ -504,7 +504,7 @@ function ProjectsModel() {
                   </div>
                 </td>
                 <td className="hidden  sm:table-cell  group    ">
-                  <Link href={"https://cbs.beweb3.com/"} target="_blank">
+                  <Link href={"http://cbs.beweb3.com/"} target="_blank">
                     cbs.beweb3.com/{" "}
                     <MdOutlineArrowOutward className=" inline group-hover:rotate-45 group-hover:translate-x-2  transition-[all_0.1s] ease-linear   " />
                   </Link>
