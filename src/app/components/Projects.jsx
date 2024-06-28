@@ -183,7 +183,7 @@ function Projects() {
             </span>
 
             <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
-              .net framework
+              NodeJs
             </span>
             <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
               mysql <SiMysql />
@@ -235,7 +235,7 @@ function Projects() {
               Javascript <IoLogoJavascript />
             </span>
             <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px]  ">
-              .net framework
+              NodeJs
             </span>
             <span className=" inline-flex gap-[1px] items-center text-xs uppercase font-[500] text-[#5CBE2E]  bg-[#5CBE2E1f] px-3 py-[6px] rounded-[18px] ">
               ReactJs <FaReact />
