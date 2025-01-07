@@ -2,6 +2,8 @@
 import "./globals.css";
 import "react-responsive-modal/styles.css";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 export const metadata = {
   // title: "M Usman Noor Portfolio",
   description:
@@ -29,7 +31,7 @@ export default function RootLayout({ children }) {
           <div id="stars3"></div>
           <div id="stars3"></div>
         </div>
-
+        <SpeedInsights />
         {children}
       </body>
     </html>
