@@ -5,7 +5,6 @@ import sponsa2 from "../../../public/Sponsa2.png";
 import sponsa from "../../../public/sponsa.png";
 import traderaai from "../../../public/traderaAi.png";
 import maincore from "../../../public/maincoreproject.png";
-import Portfolio from "../../../public/MUsmanPortfolio.png";
 import ProjectsModel from "./ProjectsModel";
 import {
   FaBootstrap,

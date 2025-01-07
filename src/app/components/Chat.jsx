@@ -117,14 +117,12 @@ const Chat = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input.trim() }),
       });
-      console.log("response:", response);
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
       const data = await response.json();
-      console.log("data:", data);
 
       const aiMessage = {
         role: "assistant",

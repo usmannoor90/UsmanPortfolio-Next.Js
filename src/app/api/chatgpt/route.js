@@ -1,30 +1,4 @@
-// import { NextResponse } from "next/server";
-
-// import OpenAI from "openai";
-// const openai = new OpenAI({ apiKey: process.env.OPEN_AI_API_KEY });
-
-// export async function POST(request) {
-//   const { prompt } = await request.json();
-
-//   console.log("in the route");
-
-//   const completion = await openai.chat.completions.create({
-//     model: "gpt-4o-mini",
-//     messages: [
-//       { role: "system", content: "You are a helpful assistant." },
-//       {
-//         role: "user",
-//         content: "Write a haiku about recursion in programming.",
-//       },
-//     ],
-//   });
-
-//   console.log(completion.choices[0].message);
-
-//   return NextResponse.json(completion);
-// }
-
-import { portfolioData } from "@/app/utils/portfolioData";
+import { generatePrompt } from "@/app/utils/portfolioData";
 import { sanitizeResponse } from "@/app/utils/sanitizeResponse";
 import { NextResponse } from "next/server";
 
@@ -37,24 +11,6 @@ const API_URL =
  * @param {string} question - The user's question.
  * @returns {string} - The generated prompt.
  */
-function generatePrompt(question) {
-  return `
-  You are an advanced AI assistant designed to answer questions about a professional portfolio. Below is the portfolio information:
-
-  Portfolio Data:
-  ${JSON.stringify(portfolioData, null, 2)}
-
-  Your task:
-  - Answer questions about the portfolio using the provided data.
-  - If the question is about "experience," list the company, position, duration, and description fields.
-  - If the requested information is missing, respond: "I don't have access to that information."
-  - Avoid assumptions or fabricating details.
-
-  Question: "${question}"
-
-  Response:
-  `;
-}
 
 /**
  * Fetches the AI-generated response from the Hugging Face API.
@@ -76,7 +32,6 @@ async function fetchAIResponse(prompt) {
           max_length: 150,
           temperature: 1,
           top_p: 0.9,
-          top_k: 50,
         },
       },
       null,
@@ -118,8 +73,6 @@ export async function POST(req) {
 
     // Fetch AI response
     const aiResponse = await fetchAIResponse(prompt);
-
-    console.log(aiResponse);
 
     // Sanitize and return the AI's response
     const sanitizedResponse = sanitizeResponse(aiResponse);
