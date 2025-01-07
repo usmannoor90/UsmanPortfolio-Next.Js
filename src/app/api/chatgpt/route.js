@@ -69,20 +69,28 @@ async function fetchAIResponse(prompt) {
       Authorization: `Bearer ${HUGGING_FACE_API_KEY}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      inputs: prompt,
-      parameters: {
-        max_length: 150,
-        temperature: 1,
-        top_p: 0.9,
-        top_k: 50,
+    body: JSON.stringify(
+      {
+        inputs: prompt,
+        parameters: {
+          max_length: 150,
+          temperature: 1,
+          top_p: 0.9,
+          top_k: 50,
+        },
       },
-    }),
+      null,
+      2
+    ),
   });
 
   if (!response.ok) {
     throw new Error(
-      `API Error: ${response.status} - ${response.statusText} - ${response}`
+      `API Error: ${response.status} - ${
+        response.statusText
+      } - ${response.text()} - ${response.clone()} - ${
+        response.body
+      } - ${response.blob()}`
     );
   }
 
