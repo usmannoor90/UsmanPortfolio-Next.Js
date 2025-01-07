@@ -88,7 +88,7 @@ async function fetchAIResponse(prompt) {
     throw new Error(
       `API Error: ${response.status} - ${
         response.statusText
-      } - ${response.text()} -  }`
+      } - ${await response.text()} -  }`
     );
   }
 
