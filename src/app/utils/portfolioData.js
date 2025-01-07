@@ -43,6 +43,6 @@ export const portfolioData = {
   publicContact: {
     github: "https://github.com/usmannoor90",
     linkedin: "https://linkedin.com/in/musmannoor",
-    gmail: "m.usmannoor90@gmail.com",
+    email: "m.usmannoor90@gmail.com",
   },
 };

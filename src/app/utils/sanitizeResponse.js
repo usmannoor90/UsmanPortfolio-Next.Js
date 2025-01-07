@@ -4,8 +4,10 @@ export function sanitizeResponse(response) {
   const phonePattern = /(\+\d{1,3}[-.]?)?\(?\d{3}\)?[-.]?\d{3}[-.]?\d{4}/g;
   const addressPattern = /\d+\s+([a-zA-Z]+\s+){1,}\d{5}/g;
 
-  return response
-    .replace(emailPattern, "[EMAIL REMOVED]")
-    .replace(phonePattern, "[PHONE REMOVED]")
-    .replace(addressPattern, "[ADDRESS REMOVED]");
+  return (
+    response
+      // .replace(emailPattern, "[EMAIL REMOVED]")
+      .replace(phonePattern, "[PHONE REMOVED]")
+      .replace(addressPattern, "[ADDRESS REMOVED]")
+  );
 }

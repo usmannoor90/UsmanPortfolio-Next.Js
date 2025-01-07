@@ -124,8 +124,6 @@ const Chat = () => {
 
       const data = await response.json();
 
-      console.log(data.response);
-
       const aiMessage = {
         role: "assistant",
         content: data.response,
