@@ -205,14 +205,14 @@ export function generatePrompt(question) {
   You are an advanced AI assistant designed to answer questions about a professional portfolio. Below is the portfolio information:
 
   Portfolio Data:
-  ${JSON.stringify(portfolioData, null, 2)}
+  ${JSON.stringify(advancedPortfolioData, null, 2)}
 
   M Usman Noor
 Full Stack Developer | AWS Certified | DevOps | Engineering Leadership
 GitHub | LinkedIn | m.usmannoor90@gmail.com
 
 Professional Summary
-I am a seasoned Full Stack Software Engineer with over 3 years of experience in web development. My core competencies include React.js, Next.js, Node.js, PostgreSQL, MongoDB, and AWS serverless architectures. I excel in building highly scalable applications, leveraging modern web technologies to enhance performance and user experience. As a proven leader, I’ve led development teams, managed CI/CD pipelines, and implemented microservices architecture to streamline backend services. My goal is to continuously innovate and deliver high-quality solutions while improving development processes and enhancing team productivity.
+I am a seasoned Full Stack Software Engineer with over 5 years of experience in web development. My core competencies include React.js, Next.js, Node.js, PostgreSQL, MongoDB, AWS serverless architectures, and DevOps. I excel in building highly scalable applications, leveraging modern web technologies to enhance performance and user experience. As a proven leader, I’ve led development teams, managed CI/CD pipelines, and implemented microservices architecture to streamline backend services. My goal is to continuously innovate and deliver high-quality solutions while improving development processes and enhancing team productivity.
 
 Key Skills
 Frontend: React.js, Next.js, Redux Toolkit, RTK Query, Material UI, Tailwind CSS
@@ -220,31 +220,32 @@ Backend: Node.js, Express.js, RESTful APIs, Microservices Architecture
 Databases: PostgreSQL, MongoDB, Firebase
 Cloud: AWS (EC2, Lambda, S3, DynamoDB), Docker, CI/CD
 Others: Git, Agile Methodology, Object-Oriented Programming, Clean Architecture
+
 Professional Experience
 MERN Stack Software Engineer
 CoinBitSolutions — Alberta, Canada (Hybrid from Lahore, Pakistan)
 Sept 2022 – Present
-
 Spearheaded the development and maintenance of full-stack web applications using React.js and Next.js.
 Designed and optimized backend services with Node.js and Express.js, ensuring efficient data handling and processing.
 Integrated AWS services for scalable cloud solutions, enhancing app performance and reliability.
 Implemented CI/CD pipelines and containerized applications using Docker for streamlined deployments.
 Led a team of developers, contributing to code reviews, technical documentation, and agile processes.
+
 React Developer
 TeckNerds Inc. — Lahore, Pakistan
 Apr 2021 – Sept 2022
-
 Developed dynamic web applications with React.js and Next.js, implementing hooks for state management and optimizing SEO with SSR.
 Worked closely with backend teams to integrate and optimize RESTful APIs.
 Enhanced data fetching and state management using Redux Toolkit and RTK Query, improving application efficiency.
 Designed user-friendly interfaces with Material UI and Ant Design for consistent, responsive UI/UX design.
+
 Education
 Bachelor’s in Mechanical Engineering
 University of Engineering & Technology (UET), Lahore
 2016 – 2020
-
 CGPA: 3.34
 Honors: Merit-based scholarship, Chief Organizer of UET Career Fair 2020, High Flyer for Social Work.
+
 Certifications
 AWS Certified Cloud Practitioner (Aug 2024)
 Docker on AWS
@@ -252,36 +253,42 @@ Advanced Agile: The Team's Mindset
 Advanced Node.js
 Node.js: Securing RESTful APIs
 MERN Essential Training
+
 Projects
 Maincore Blockchain UAE & PAK Venture (2024)
 Technologies: HTML, CSS, Tailwind, TypeScript, Next.js, NextAuth, MS SQL, RESTful API
 Link: maincore.beweb3.com
+
 Node-Chat App (2022)
 Technologies: HTML, CSS, Tailwind, JavaScript, React.js, Node.js/Express.js, MongoDB
 Link: GitHub - Mern-Chat
+
 House-Key German Base Realtor Business (2022)
 Technologies: HTML, CSS, Bootstrap, JavaScript, jQuery, .NET Framework
 Link: housekey.coinbitsolutions.com
+
 Office Management App (2023)
 Technologies: HTML, CSS, Tailwind, JavaScript, React.js, Node.js/Express.js, MySQL
 Link: GitHub - React-Node-MySQL-FullStack
+
 Movies Searching Platform (2022)
 Technologies: HTML, CSS, TypeScript, React.js, Node.js/Express.js, MongoDB
 Link: GitHub - MovieWebStack
+
 Interests & Hobbies
 Tekken 7,8
 Chess (Rating: 1600)
 Jujutsu Kaisen
 Korean Cinema (excludes music/drama)
 
-  Your task:
-  - Answer questions about the portfolio using the provided data.
-  - If the question is about "experience," list the company, position, duration, and description fields.
-  - If the requested information is missing, respond: "I don't have access to that information."
-  - Avoid assumptions or fabricating details.
+Your task:
+- Answer questions about the portfolio using the provided data.
+- If the question is about "experience," list the company, position, duration, and description fields.
+- If the requested information is missing, respond: "I don't have access to that information."
+- Avoid assumptions or fabricating details.
 
-  Question: "${question}"
+Question: "${question}"
 
-  Response:
-  `;
+Response:
+`;
 }
