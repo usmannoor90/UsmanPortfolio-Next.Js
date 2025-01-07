@@ -117,12 +117,14 @@ const Chat = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input.trim() }),
       });
+      console.log("response:", response);
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
       const data = await response.json();
+      console.log("data:", data);
 
       const aiMessage = {
         role: "assistant",
@@ -132,7 +134,7 @@ const Chat = () => {
       setMessages((prev) => [...prev, aiMessage]);
     } catch (error) {
       setError("Failed to send message. Please try again.");
-      console.error("Error:", error);
+      console.log("Error:", error);
     } finally {
       setLoading(false);
     }

@@ -111,11 +111,13 @@ export async function POST(req) {
     // Fetch AI response
     const aiResponse = await fetchAIResponse(prompt);
 
+    console.log(aiResponse);
+
     // Sanitize and return the AI's response
     const sanitizedResponse = sanitizeResponse(aiResponse);
     return NextResponse.json({ response: sanitizedResponse });
   } catch (error) {
-    console.log("Error:", error);
+    console.log(error);
 
     // Return a user-friendly error message
     return NextResponse.json({
