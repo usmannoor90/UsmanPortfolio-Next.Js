@@ -10,6 +10,7 @@ import Preloader from "./components/Preloader";
 import Sections from "./components/Sections";
 import { useRouter } from "next/navigation";
 import CustomHead from "./components/CustomHead";
+import Chat from "./components/Chat";
 
 const getRandomMessage = () => {
   const messages = [
@@ -73,7 +74,9 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
               exit={{ opacity: 1, transition: 2 }}
+              className="relative"
             >
+              <Chat />
               <CursorPointer />
               <Sections />
             </motion.div>

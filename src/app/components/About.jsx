@@ -18,29 +18,7 @@ function About() {
         informed about industry advancements and continuously honing skills to
         consistently deliver exceptional results.
       </h2>
-      {/* <h2 className="CustomPara1 sm:text-[16px] text-[14px]  mt-5">
-        My inaugural year with{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
-          React
-        </button>{" "}
-        was all about creating web designs that could make pixels jealous. The
-        sequel brought a new role—designing API implementations and diving into
-        the magic of{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
-          Next.js.
-        </button>{" "}
-        Meanwhile, I traded my mechanical toolbox for{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
-          Node.js and Express.Js
-        </button>{" "}
-        to sculpt robust end-to-end solutions. Recently, I’ve expanded my
-        expertise to include Docker, Linux, Python, and Bash scripting,
-        enhancing my{" "}
-        <button className="text-white  font-semibold capitalize barDown hover:text-[#5CBE2E] cursor-none ">
-          DevOps
-        </button>{" "}
-        capabilities.
-      </h2> */}
+
       <h2 className="CustomPara1 sm:text-[16px] text-[14px]  mt-5">
         Beyond the keyboard, I’m the{" "}
         <span className="text-white  font-semibold CustomCarpanterCursor capitalize pb-[3px]  barDown hover:text-[#5CBE2E] ">
