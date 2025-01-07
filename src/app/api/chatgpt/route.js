@@ -81,7 +81,9 @@ async function fetchAIResponse(prompt) {
   });
 
   if (!response.ok) {
-    throw new Error(`API Error: ${response.status} - ${response.statusText}`);
+    throw new Error(
+      `API Error: ${response.status} - ${response.statusText} - ${response}`
+    );
   }
 
   const result = await response.json();
