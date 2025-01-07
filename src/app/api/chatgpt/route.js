@@ -30,7 +30,7 @@ import { NextResponse } from "next/server";
 
 const HUGGING_FACE_API_KEY = process.env.HUGGING_FACE_API_KEY;
 const API_URL =
-  "https://api-inference.huggingface.co/models/google/flan-t5-xxl";
+  "https://api-inference.huggingface.co/models/google/flan-t5-large";
 
 /**
  * Generates a context-aware prompt for the AI.
