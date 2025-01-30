@@ -2,57 +2,55 @@ import { generatePrompt } from "@/app/utils/portfolioData";
 import { sanitizeResponse } from "@/app/utils/sanitizeResponse";
 import { NextResponse } from "next/server";
 
-const HUGGING_FACE_API_KEY = process.env.HUGGING_FACE_API_KEY;
-const API_URL =
-  "https://api-inference.huggingface.co/models/google/flan-t5-large";
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 /**
- * Generates a context-aware prompt for the AI.
- * @param {string} question - The user's question.
- * @returns {string} - The generated prompt.
- */
-
-/**
- * Fetches the AI-generated response from the Hugging Face API.
+ * Fetches the AI-generated response from the Groq API.
  * @param {string} prompt - The prompt to send to the API.
  * @returns {Promise<string>} - The AI-generated response.
  */
-
 async function fetchAIResponse(prompt) {
-  const response = await fetch(API_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${HUGGING_FACE_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(
-      {
-        inputs: prompt,
-        parameters: {
-          max_length: 150,
-          temperature: 1,
-          top_p: 0.9,
-        },
+  try {
+    const response = await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${GROQ_API_KEY}`,
+        "Content-Type": "application/json",
       },
-      null,
-      2
-    ),
-  });
+      body: JSON.stringify({
+        model: "llama-3.3-70b-versatile", // or "llama2-70b-4096" for higher quality
+        messages: [
+          {
+            role: "user",
+            content: prompt,
+          },
+        ],
+        temperature: 0.7,
+        max_tokens: 150,
+        top_p: 0.8,
+        stream: false, // Set to true if you want to implement streaming
+      }),
+    });
 
-  if (!response.ok) {
-    throw new Error(
-      `API Error: ${response.status} - ${
-        response.statusText
-      } - ${await response.text()} -  }`
-    );
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(
+        `API Error: ${response.status} - ${response.statusText} - ${errorText}`
+      );
+    }
+
+    const result = await response.json();
+
+    if (!result.choices?.[0]?.message?.content) {
+      throw new Error("Invalid response format from AI.");
+    }
+
+    return result.choices[0].message.content;
+  } catch (error) {
+    console.error("Groq API Error:", error);
+    throw error;
   }
-
-  const result = await response.json();
-  if (!result[0]?.generated_text) {
-    throw new Error("Invalid response format from AI.");
-  }
-
-  return result[0].generated_text;
 }
 
 export async function POST(req) {
@@ -68,22 +66,20 @@ export async function POST(req) {
       throw new Error("Invalid message format");
     }
 
-    // Generate a prompt using the last message
     const prompt = generatePrompt(lastMessage);
-
-    // Fetch AI response
     const aiResponse = await fetchAIResponse(prompt);
-
-    // Sanitize and return the AI's response
     const sanitizedResponse = sanitizeResponse(aiResponse);
+
     return NextResponse.json({ response: sanitizedResponse });
   } catch (error) {
-    console.log(error);
+    console.error("API Error:", error);
 
-    // Return a user-friendly error message
-    return NextResponse.json({
-      response:
-        "I'm currently having trouble accessing the information. Please try asking your question again in a moment.",
-    });
+    return NextResponse.json(
+      {
+        response:
+          "I'm currently having trouble accessing the information. Please try again in a moment.",
+      },
+      { status: 500 }
+    );
   }
 }
